@@ -1,0 +1,35 @@
+# === Java / Spring Boot ===
+/backend/target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+*.db
+*.h2.db
+
+# === IntelliJ IDEA / VSCode ===
+.idea/
+.vscode/
+*.iws
+*.ipr
+*.iml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Spring Configs ===
+backend/.env
+
+# === Node.js / React ===
+/frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/coverage/
+
+# === Misc ===
+logs/

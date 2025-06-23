@@ -1,0 +1,8 @@
+# Always use LF line endings in repo
+* text=auto eol=lf
+
+# Shell scripts and Maven wrapper scripts should use LF
+*.sh text eol=lf
+*.cmd text eol=crlf
+
+
